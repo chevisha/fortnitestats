@@ -1,0 +1,59 @@
+#nickname
+{
+    
+    border-radius: 30px;
+    width:400px;
+    height:70px;
+    font-weight: 600;
+    font-size:20px;
+    text-align: center;
+}
+#nickname:focus
+{
+    outline: none;
+}
+  
+
+#button:focus
+{
+    outline: none;
+}
+
+body
+{
+text-align: center;
+/*background-color: #EBEDEF;*/
+background-image:url("slika.jpg");
+}
+#button
+{
+    border-radius: 30px;
+    width:150px;
+    height:40px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size:20px;
+    color: black;
+    background-color:yellow;
+}
+
+#a
+{
+    font-weight: 600;
+    font-size:20px;
+    margin-left:0px;
+}
+
+#b
+{
+    font-weight: 600;
+    font-size:20px;
+
+}
+
+#c
+{
+    font-weight: 600;
+    font-size:20px;
+    
+}

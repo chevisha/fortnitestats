@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<title>Page Title</title>
+<link rel="stylesheet"  href="custom.css"> 
+
+
+
+
+</head>
+<body>
+   
+    
+        <div id="app">
+        <input id="nickname" v-model="nick" type="text" placeholder="Your nickname:" onfocus="this.placeholder=''"/>
+        <br>
+        <button id="button"  v-on:click="la()"> Generate ! </button>
+        <br>
+
+       
+        <h1 id="a"> Solo kills : {{ solokills }}</h1>
+        <h1 id="b"> Duo kills : {{ duokills }}</h1>
+        <h1 id="c"> Squad kills : {{ squadkills }}</h1>
+    </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script> 
+        <script src="vue.js"></script>
+    
+    
+</body>
+</html>
